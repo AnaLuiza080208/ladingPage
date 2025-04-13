@@ -1,0 +1,123 @@
+body {
+    font-family: 'Minecraft', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #3b3b3b;
+    color: #e0e0e0;
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('https://fonts.cdnfonts.com/css/minecraft-4') format('woff2');
+}
+
+header {
+    background: #2d2d2d;
+    color: #fff;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 4px solid #5a5a5a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #3a3a3a;
+    border: 2px solid #5a5a5a;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    text-shadow: 2px 2px 0 #000;
+}
+
+nav ul li a:hover {
+    background-color: #4e4e4e;
+    border-color: #7a7a7a;
+    transform: translateY(-2px);
+}
+
+section {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #5a5a5a;
+}
+
+#secao1 {
+    background: #4a4a4a;
+    border-color: #6a6a6a;
+}
+
+#secao2 {
+    background: #3a3a3a;
+    border-color: #5a5a5a;
+}
+
+#secao3 {
+    background: #2a2a2a;
+    border-color: #4a4a4a;
+}
+
+#secao4 {
+    background: #1a1a1a;
+    border-color: #3a3a3a;
+}
+
+h1, h2 {
+    color: #55ff55;
+    text-shadow: 2px 2px 0 #000;
+    border-bottom: 2px solid #5a5a5a;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ffaa00; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #2d2d2d;
+    color: white;
+    border-top: 4px solid #5a5a5a;
+    margin-top: 30px;
+}
+
+footer i {
+    margin: 0 15px;
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+footer i:hover {
+    color: #55ff55;
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 3px solid #55ff55;
+}
+
