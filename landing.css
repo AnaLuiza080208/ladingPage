@@ -67,9 +67,20 @@ section {
     border-color: #6a6a6a;
 }
 
+#secao1 img {
+    max-width: 100%;
+    height: auto
+}
+
 #secao2 {
     background: #3a3a3a;
     border-color: #5a5a5a;
+}
+
+#secao2 img {
+    max-width: 100%;
+    height: auto
+    
 }
 
 #secao3 {
